@@ -4,14 +4,16 @@ document.addEventListener("DOMContentLoaded", function () {
     cartContainer.className = "cart";
     document.body.appendChild(cartContainer);
 
-  
+    
     const products = [
         { id: 1, name: "Camiseta 1999", price: 220, image: "camisa99.png" },
         { id: 2, name: "Camiseta 1993", price: 230, image: "camisa93.png" },
         { id: 3, name: "Camiseta 1977", price: 225, image: "camisa77.png" },
-        
-        // { id: 4, name: "Produto 4", price: 35, image: "product4.jpg" },
-        // { id: 5, name: "Produto 5", price: 40, image: "product5.jpg" },
+        { id: 4, name: "Camiseta 1960", price: 300, image: "camisa77.png" },
+        { id: 5, name: "Camiseta 2009", price: 200, image: "camisa09.png" },
+        { id: 6, name: "Camiseta 2014", price: 325, image: "camisa14.png" },
+        { id: 7, name: "Camiseta 1951", price: 350, image: "camisa51.png" },
+        { id: 8, name: "Camiseta 2012", price: 250, image: "camisa12.png" },
     ];
 
     products.forEach(product => {
