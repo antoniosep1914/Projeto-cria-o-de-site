@@ -4,12 +4,12 @@ document.addEventListener("DOMContentLoaded", function () {
     cartContainer.className = "cart";
     document.body.appendChild(cartContainer);
 
-    // Adicione seus produtos aqui
+  
     const products = [
         { id: 1, name: "Camiseta 1999", price: 220, image: "camisa99.png" },
         { id: 2, name: "Camiseta 1993", price: 230, image: "camisa93.png" },
         { id: 3, name: "Camiseta 1977", price: 225, image: "camisa77.png" },
-        // Adicione mais produtos conforme necessário
+        
         // { id: 4, name: "Produto 4", price: 35, image: "product4.jpg" },
         // { id: 5, name: "Produto 5", price: 40, image: "product5.jpg" },
     ];
