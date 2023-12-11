@@ -50,9 +50,10 @@ header {
     height: auto;
 }
 .product img:hover{
-    filter: opacity(60%);
+    transform: scale(2.0); 
    max-width: 100%;
     height: auto;
+ 
 }
 .cart {
     margin-top: 1em;

@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <h3>${product.name}</h3>
             <img src="${product.image}" alt="${product.name}">
             <p>Preço: $${product.price}</p>
-            <button onclick="addToCart(${product.id})">Adicionar ao Carrinho</button>
+           
             <button onclick="buyNow(${product.id})">Comprar Agora</button>
         `;
         productsContainer.appendChild(productElement);
