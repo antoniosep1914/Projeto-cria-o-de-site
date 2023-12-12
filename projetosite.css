@@ -46,6 +46,10 @@ header nav a:hover{
     transition: .4s ease all;
 }
 
+.texto2 {
+    color: white;
+    size: 200px;
+}
 
 #products {
     display: flex;
