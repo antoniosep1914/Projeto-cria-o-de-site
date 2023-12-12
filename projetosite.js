@@ -14,6 +14,12 @@ document.addEventListener("DOMContentLoaded", function () {
         { id: 6, name: "Camiseta 2014", price: 325, image: "camisa14.png" },
         { id: 7, name: "Camiseta 1951", price: 350, image: "camisa51.png" },
         { id: 8, name: "Camiseta 2012", price: 250, image: "camisa12.png" },
+        { id: 9, name: "Camiseta 2010", price: 270, image: "camisa10.png" },
+        { id: 10, name: "Camiseta 1998", price: 300, image: "camisa98.png" },
+        { id: 11, name: "Camiseta 2006", price: 200, image: "camisa06.png" },
+        { id: 12, name: "Camiseta 1987", price: 350, image: "camisa87.png" },
+        { id: 13, name: "Camiseta 1984", price: 400, image: "camisa84.png" },
+        { id: 14, name: "Camiseta 2008", price: 270, image: "camisa08.png" },
     ];
 
     products.forEach(product => {
