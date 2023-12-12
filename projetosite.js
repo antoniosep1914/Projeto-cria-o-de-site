@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
         productsContainer.appendChild(productElement);
     });
 
-   
+
     window.addToCart = function (productId) {
         const selectedProduct = products.find(product => product.id === productId);
         if (selectedProduct) {
