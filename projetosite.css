@@ -20,12 +20,32 @@ body {
     size: 100px;
 
 }
-header {
-    background-color: green;
-    color: #fff;
-    text-align: center;
-    padding: 1em;
+header .logo{
+    margin-left: 5px;
+    color:green;
+    font-family: 'Arial Black';
+    font-size: 40px;
 }
+header .container{
+    display:flex ;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+header nav a{
+    text-decoration: none;
+    color: green;
+    margin-right: 10px;
+    font-family: 'Arial Black';
+    padding: 7px;
+}
+
+header nav a:hover{
+    color: red;
+    transition: .4s ease all;
+}
+
 
 #products {
     display: flex;
